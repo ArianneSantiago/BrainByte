@@ -57,3 +57,4 @@ The site has been deployed to github pages at  (insert-link-here).
 ## Credits  
 
 -https://opentdb.com/ for use of the api for the questions.
+-https://pixabay.com/ for use of the sounds.
