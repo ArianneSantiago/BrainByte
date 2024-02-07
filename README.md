@@ -11,8 +11,8 @@ TBA
 The wireframes made for the project shows how we based the design around a simple design. 
 
 
-![Wireframe for index page] (https://github.com/ArianneSantiago/BrainByte/asset/readme_images/wireframe1.PNG)
-![Wireframe for difficulty select](https://github.com/ArianneSantiago/BrainByte/asset/readme_images/wireframe2.PNG)
+![Wireframe for index page]
+![Wireframe for difficulty select]
 
 
 ## Responsive Design
