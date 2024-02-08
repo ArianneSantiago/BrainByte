@@ -47,6 +47,18 @@ fetch('https://opentdb.com/api.php?amount=1&category=23&difficulty=medium&type=m
                 const selectedValue = radioButton.value;
                 if (selectedValue === userAnswer) { // Use === for comparison, not =
                     console.log('WOWOWO');
+                    let incr =parseInt(document.getElementById('correctAnsCount').innerText);
+                    console.log(incr);
+                    incr++;
+                    document.getElementById('correctAnsCount').innerText = incr;
+                    console.log(incr);
+                } else {
+                    console.log('NoNoNo');
+                    let decr =parseInt(document.getElementById('wrongAnsCount').innerText);
+                    console.log(decr);
+                    decr++;
+                    document.getElementById('wrongAnsCount').innerText = decr;
+                    console.log(decr);
                 }
                 // Perform actions based on the selected value
                 console.log("Selected value:", selectedValue);
