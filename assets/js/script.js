@@ -1,18 +1,13 @@
-// // Select the radio buttons by their name attribute
-// const radioButtons = document.querySelectorAll('input[name="flexRadioDefault"]');
-
-// // Add event listener to each radio button
-// radioButtons.forEach(radioButton => {
-//     radioButton.addEventListener('click', function() {
-//         // Get the value of the selected radio button
-//         const selectedValue = this.value;
-//         console.log(selectedValue); // Output the selected value
-//     });
-// });
-
+// Putting the URL Name for the API together 
+let urlName = "";
+catagoryButtonValue='23';
+dificultyButtonValue ='medium'
+urlName =`https://opentdb.com/api.php?amount=10&category=${catagoryButtonValue}&difficulty=${dificultyButtonValue}&type=multiple`;
+console.log(urlName);
 
 // Fetch data from the URL
-fetch('https://opentdb.com/api.php?amount=1&category=23&difficulty=medium&type=multiple')
+// fetch('https://opentdb.com/api.php?amount=1&category=23&difficulty=medium&type=multiple')
+fetch(`${urlName}`)
     .then(response => {
         // Check if the response is successful
         if (!response.ok) {
