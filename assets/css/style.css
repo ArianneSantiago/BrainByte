@@ -35,5 +35,10 @@
 .btn-custom:hover {
     background-color: #d200e6;
 }
-
+.container.center {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; Optionally set the height to center vertically */
+}
 /* TBA */
