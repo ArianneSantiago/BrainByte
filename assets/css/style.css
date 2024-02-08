@@ -19,14 +19,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
-.btn-primary {
-    color: #f0e5e5;
-}
-
-.btn-custom {
+.btn{
     background-color: #c732d4;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
@@ -36,4 +32,17 @@
     background-color: #d200e6;
 }
 
-/* TBA */
+/* play1 style*/
+label {
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #c732d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .row-margin {
+    margin-top: 10px;
+  }
