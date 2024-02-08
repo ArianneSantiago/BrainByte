@@ -1,0 +1,39 @@
+/* index Page CSS */
+.first-page {
+    background-image: url("../images/table.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(165, 150, 150, 0.418);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.btn-primary {
+    color: #f0e5e5;
+}
+
+.btn-custom {
+    background-color: #c732d4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-color: #d200e6;
+}
+
+/* TBA */
