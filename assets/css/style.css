@@ -24,25 +24,16 @@
 .btn{
     background-color: #c732d4;
     color: #fff;
-    padding: 10px 10px;
-    border-radius: 5px;
+    padding: 20px 20px;
+    border-radius: 25px;
     text-decoration: none;
     font-size: 30px;
-    border-radius: 25px;
 }
 
 .btn:hover {
     background-color: #d200e6;
 }
-.btn-main{
-    background-color: #c732d4;
-    color: #fff;
-    padding: 10px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    background-color: #d200e6;
-}
+
 /* play1 style*/
 label {
     margin: 5px;
