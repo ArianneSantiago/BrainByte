@@ -39,6 +39,11 @@
     background-color: #d200e6;
 }
 
+.btn-selected{
+    background-color: #c4190d; 
+    color: #0a0505;
+  }
+
 .container.center {
     display: flex;
     justify-content: center;
@@ -61,4 +66,15 @@ label {
   }
   .row-margin {
     margin-top: 10px;
+  }
+
+  @media (max-width: 800px) {
+    .btn {
+        min-width: 200px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 30px; 
+        padding: 10px 10px;
+        max-width: 50px; 
+    }
   }
