@@ -15,7 +15,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Get the category from the button's text content
             category = button.textContent.trim();
-
+            if (category === "General Knowledge"){
+                category = 9;
+            } else if (category === "Sports"){
+                category = 21;
+            } else if(category === "Animals"){
+                category = 27;
+            } else if(category === "History"){
+                category = 23;
+            }
             // Log the selected category
             console.log('Selected category:', category);
             updateCatDiff(); // Update catDiff array with selected category and difficulty
@@ -41,5 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateCatDiff() {
         catDiff = [category, difficultyLevel];
         console.log(catDiff);
+        localStorage.setItem('catDiff', JSON.stringify(catDiff));
     }
+    updateCatDiff();
 });
