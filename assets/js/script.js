@@ -2,15 +2,18 @@ let dataBase = [];
 let correctlyAnswered = [];
 let wronglyAnswered = [];
 let start=0
+
+let catDiff = JSON.parse(localStorage.getItem('catDiff'));
+
 // let decr=-1;
 
 
 // Define the URL for the API
 let urlName = "";
-let catagoryButtonValue = '23';
-let dificultyButtonValue = 'medium';
+let catagoryButtonValue = catDiff[0];
+let dificultyButtonValue = catDiff[1];
 urlName = `https://opentdb.com/api.php?amount=10&category=${catagoryButtonValue}&difficulty=${dificultyButtonValue}&type=multiple`;
-
+// urlName='https://opentdb.com/api.php?amount=29&category=25'
 // Fetch data from the URL
 fetch(urlName)
     .then(response => {
@@ -38,7 +41,7 @@ function handleFetchedData() {
     function handleClick(radioButton) {
     
     let item = 0;
-    console.log(item);
+    console.log(dataBase[item]);
     console.log(dataBase[item].question);
     document.getElementById('userQuestion').innerText = dataBase[0].question;
     console.log("Correct Answer: ", dataBase[item].correct_answer);
