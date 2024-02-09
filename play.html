@@ -21,18 +21,18 @@
     <h1 class="mb-4">Select Your Category!</h1>
     <div class="row justify-content-center ">
       <div class="col-sm-4">
-        <a href="play.html" class="btn btn-history">History</a>
+        <button class="btn btn-history" onclick="selectDifficulty('history')">History</button>
       </div>
       <div class="col-sm-4">
-        <a href="play.html" class="btn btn-custom btn-sports">Sports</a>
+        <button class="btn btn-custom btn-sports" onclick="selectDifficulty('sports')">Sports</button>
     </div>
     
     <div class="row justify-content-center row-margin">
       <div class="col-sm-4">
-        <a href="play.html" class="btn btn-animals">Animals</a>
+        <button class="btn btn-animals" onclick="selectDifficulty('animals')">Animals</button>
       </div>
       <div class="col-sm-4">
-        <a href="play.html" class="btn btn-knowledge">General Knowledge</a>
+        <button class="btn btn-knowledge" onclick="selectDifficulty('knowledge')">General Knowledge</button>
       </div>
       <div class="difficulty-container">
         <label>
@@ -47,6 +47,10 @@
           <input class="hard" type="radio" name="difficulty" value="hard">
           Hard
         </label>
+          <div class="row justify-content-center ">
+            <div class="col-sm-4">
+              <a href="play.html" class="btn btn-play">Play!</a>
+            </div>
       </div>
     </div>
   
