@@ -5,7 +5,9 @@
     background-position: center;
     background-attachment: fixed;
     background-color: #f4f4f4;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Irish Grover', sans-serif;
+    font-size: 30px;
+   
     min-height: 100vh; 
     display: flex; 
     align-items: center;
@@ -19,22 +21,19 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
-.btn-primary {
-    color: #f0e5e5;
-}
-
-.btn-custom {
+.btn{
     background-color: #c732d4;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 20px 20px;
+    border-radius: 25px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 30px;
 }
 
-.btn-custom:hover {
+.btn:hover {
     background-color: #d200e6;
 }
+
 .container.center {
     display: flex;
     justify-content: center;
@@ -42,3 +41,19 @@
     /* height: 100vh; Optionally set the height to center vertically */
 }
 /* TBA */
+
+
+/* play1 style*/
+label {
+    margin: 5px;
+    padding: 8px;
+    font-size: 25px;
+    background-color: #c732d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .row-margin {
+    margin-top: 10px;
+  }
