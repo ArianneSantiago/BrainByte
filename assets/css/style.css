@@ -21,7 +21,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
-.btn{
+.btn {
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    min-width: 300px; 
+    margin: 10px; 
     background-color: #c732d4;
     color: #fff;
     padding: 20px 20px;
