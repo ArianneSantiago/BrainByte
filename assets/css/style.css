@@ -29,7 +29,7 @@
     margin: 10px; 
     background-color: #c732d4;
     color: #fff;
-    padding: 20px 20px;
+    padding: 25px 25px;
     border-radius: 25px;
     text-decoration: none;
     font-size: 30px;
@@ -50,8 +50,55 @@
     /* align-items: center; */
     /* height: 100vh; Optionally set the height to center vertically */
 }
-/* TBA */
-
+/* Quiz Page */
+        body.play3 {
+            background-image: url("../images/2209_w026_n002_2509b_p1_2509.jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: 'Irish Grover', sans-serif;
+            color: white;
+        }
+        .cursive-text {
+            font-family: 'Irish Grover', sans-serif;
+            font-size: 2rem; 
+        }
+        .text-with-shadow {
+            color: white; /* Text color */
+            text-shadow: 0 0 10px black, 0 0 20px #000000, 0 0 30px black;
+            font-family: 'Irish Grover', sans-serif;
+        }
+        .btn-danger{
+            display: inline-block;
+            text-align: center;
+            background-color: #e00909;
+            color: #fff;
+            font-size: 30px;
+            border-radius: 25px;
+        }
+        .btn-success {
+            display: inline-block;
+            text-align: center;
+            background-color: #10e009;
+            color: #fff;
+            font-size: 30px;
+            border-radius: 25px;
+        }
+        .answers {
+    position: absolute;
+    top: 400px;
+        }
+        .correct {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: 'Irish Grover', sans-serif;
+        }
+        .wrong {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-family: 'Irish Grover', sans-serif;
+        }
 
 /* play1 style*/
 label {
@@ -67,6 +114,8 @@ label {
   .row-margin {
     margin-top: 10px;
   }
+
+
 
   @media (max-width: 800px) {
     .btn {
