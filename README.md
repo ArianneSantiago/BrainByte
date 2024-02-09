@@ -54,4 +54,5 @@ The site has been deployed to github pages at  (insert-link-here).
 
 -https://opentdb.com/ for use of the api for the questions.
 -https://pixabay.com/ for use of the sounds.
--https://favicon.io/ for generating Fav icon
+-https://favicon.io/ for generating Fav icon.
+-https://tinypng.com/ for compressing images.
